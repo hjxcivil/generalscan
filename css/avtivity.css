@@ -1,0 +1,257 @@
+.activity {
+	overflow: hidden;
+	padding-bottom: 115px;
+}
+.activity .tit {
+	display: table-cell;
+	width: 1200px;
+	height: 200px;
+	vertical-align: middle;
+}
+.shopArea {
+	display: none;
+}
+.shop-mask {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,0.7);
+	z-index: 1;
+}
+
+.shopCar {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 890px;
+	height: 650px;
+	background-color: #fff;
+	z-index: 2;
+	margin: auto;
+}
+.iClose {
+	position: absolute;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	top: 23px;
+	right: 23px;
+	cursor: pointer;
+	background-image: url(../img/slide.png);
+	background-position: 0 -420px;
+}
+
+.navCircle {
+	
+}
+.navCircle i {
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	margin-top: -47px;
+	width: 94px;
+	height: 94px;
+	border-radius: 50%;
+	cursor: pointer;
+	background-image: url(../img/slide.png);
+}
+.prev {
+	margin-left: -125px;
+	background-position: 0 -131px;
+}
+.next {
+	right: 0;
+	margin-right: -125px;
+}
+
+.shopImg {
+	width: 280px;
+	height: 250px;
+	border: 1px solid #eeeeee;
+	margin: 140px 100px 100px;
+}
+.shopImg img {
+	cursor: pointer;
+}
+
+.shopCon {
+	margin-top: 70px;
+	width: 373px;
+}
+.shopTit a{
+	font-size: 20px;
+    font-family: "Microsoft Yahei";
+    color: #474747;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.priceCar {
+	width: ;
+	border-top: 1px solid #eeeeee;
+	
+}
+.priceCar p {
+    font-size: 14px;
+    font-family: "Microsoft Yahei";
+    line-height: 45px;
+    color: #767676;
+    
+}
+
+
+.shopNum {
+    width: 45px;
+    height: 30px;
+    margin-left: 22px;
+    line-height: 30px;
+    text-align: center;
+    vertical-align: top;
+    font-family: "微软雅黑";
+    padding: 4px;
+    border: 1px solid #eee;
+}
+.up ,.down{
+	display: inline-block;
+	border: 1px solid #eee;
+    width: 14px;
+    height: 14px;
+    margin-left: 8px;
+    position: absolute;
+    cursor: pointer;
+}
+.up {
+	background: url(../img/vbg01.png) -625px -974px no-repeat;
+}
+.down {
+	margin-top: 24px;
+	background: url(../img/vbg01.png) -625px -1005px no-repeat;
+}
+
+.addBuy  {
+	margin-top: 10px;
+}
+.addCart {
+	font: 16px "microsoft yahei";
+	text-decoration: none;
+	display: inline-block;
+    background-color: #ffeded;
+    margin-right: 12px;
+    padding: 10px 31px;
+    border: 1px solid #b30000;
+    color: #c40000;
+}
+.buyNow {
+	font: 16px "microsoft yahei";
+	text-decoration: none;
+	display: inline-block;
+    background-color: #b30000;
+    color: #fff;
+    padding: 11px 32px 11px 45px;
+}
+
+.shopThumb {
+	font-size: 0;
+	text-align: center;
+}
+.shopThumb img {
+	width: 80px;
+	height: 80px;
+	margin: 0 2px;
+	cursor: pointer;
+	border: 2px solid transparent;
+}
+.shopThumb  img.addOn {
+	border-color: #c80024;	
+}
+
+.itemList {
+	overflow: hidden;
+	margin-right: -26px;
+}
+
+
+.itemCell {
+	width: 280px;
+	height: 380px;
+	float: left;
+	margin-right: 26px;
+}
+
+.idown {
+	margin-top: 75px;
+}
+
+.item_img {
+	width: 280px;
+	height: 250px;
+	position: relative;
+	border: 1px solid #eeeeee;
+	
+}
+.item_img:hover {
+	cursor: pointer;
+}
+
+.item_img .search-icon {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 64px;
+	height: 64px;
+	display: none;
+	background: url(../img/imageEffetc_magnifier.png);
+}
+
+
+.item_detail {
+	text-align: center;
+}
+.item_text {
+	height: 49px;
+	line-height: 55px;
+}
+.item_text a{
+	font-size: 14px;
+	color: black;
+	text-decoration: none;
+	margin-top: 10px;
+}
+.dotted {
+	border-bottom: 1px dotted #cccccc;
+}
+.item_price {
+	height: 80px;
+}
+.item_num {
+	height: 45px;
+	line-height: 45px;
+	font-size: 12px;
+}
+.item_num span {
+	color: #FFC001;
+}
+
+span.big {
+	font-size: 20px;
+}
+span.del {
+	color: #000;
+	margin-left: 10px;
+	text-decoration: line-through;
+}
+.buy {
+	color:white;
+	background-color: #FFC001;
+	width: 224px;
+	height: 33px;
+	font-size: 14px;
+	cursor: pointer;
+}

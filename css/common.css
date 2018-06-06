@@ -1,0 +1,33 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	font-weight: normal;
+}
+
+input, textarea, select, button {
+	border: none;
+	outline: none;
+}
+
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+
+.clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+    height: 0;
+}
+.clearfix {
+    zoom: 1;
+}
+
+.active {
+	color: #FFC001;
+}

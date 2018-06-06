@@ -1,0 +1,59 @@
+.aboutUsWrapper {
+	width: 100%;
+	height: 400px;
+	position: relative;
+	overflow: hidden;
+}
+.mask-about {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #f8f8f8;
+	z-index: -1;
+}
+.aboutUsWrapper .aboutUs {
+	overflow: hidden;
+}
+.aboutUs .tit, .activity .tit, .order .tit {
+	text-align: center;
+	font: bold 26px "微软雅黑" ;
+	color: #FFC001;
+	margin: 0 auto;
+}
+.aboutUs .tit {
+	margin-top: 50px;
+	margin-bottom: 80px;
+}
+.tit i {
+	position: absolute;
+	margin-top: 50px;
+	display: inline-block;
+	width: 230px;
+	margin-left: -115px;
+	background: url(../img/heart.png);
+}
+
+.brief, .develop, .promise {
+	float: left;
+	width: 330px;
+	height: 195px;
+	padding-left: 30px;
+	padding-right: 40px;
+}
+.aboutUs p {
+	font: 14px/1.8 "微软雅黑";
+}
+
+
+
+.brief h1, .develop h1, .promise h1 {
+	font-size: 20px;
+	line-height: 56px;
+	font-weight: bold;
+	
+}
+.brief i, .develop i, .promise i {
+	position: absolute;
+	margin-left: -50px;
+	margin-top:  5px;
+}

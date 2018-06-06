@@ -1,0 +1,76 @@
+.online {
+	width: 1000px;
+	margin: 0 auto;
+	padding-bottom: 75px;
+}
+.order .tit {
+	height: 120px;
+	padding-top: 70px;
+}
+.order i {
+}
+.order_item {
+	overflow: hidden;
+}
+.order_img {
+	
+}
+.order_list {
+	margin-top: -17px;
+	margin-left: 120px;
+}
+
+.order_list p {
+	margin: 25px 0;
+	color: #9b9b9b;
+	font-weight: bold;
+}
+.order_list span.absL {
+	position: absolute;
+	margin-left: -65px;
+	line-height: 34px;
+	//margin-top: 10px;
+	color: #9b9b9b;
+	font-weight: bold;
+}
+
+.order_list input, textarea,select {
+	border: 1px solid #dadada;
+	height: 34px;
+	width: 538px;
+	color: #9b9b9b;
+	text-indent: 6px;
+}
+.addr {
+	overflow: hidden;
+}
+	
+.addr select {
+	float: left;
+	margin-right: 15px;
+	width: 170px;
+}
+
+select {
+	text-indent: 0px;
+}
+input[type='text']:focus, select:focus, textarea:focus {
+	border-color: #1e90ff;
+}
+
+
+.order_list .card .absL {
+	line-height: 100px;
+}
+.order_list textarea {
+	height: 100px;
+}
+
+input.btn {
+	width: 240px;
+	height: 45px;
+	cursor: pointer;
+	font-size: 14px;
+	background: #ffad2b;
+	color: #fff;
+}

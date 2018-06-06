@@ -1,0 +1,144 @@
+.effectWrapper{
+	//width: 100%;
+	padding-bottom: 90px;
+	position: relative;
+}
+.mask-show {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #F8F8F8;
+	z-index: -1;
+}
+.wrap_show {
+}
+.show_button {
+	height: 185px;
+	overflow: hidden;
+	text-align: center;
+}
+.show_button ul {
+	margin-top: 85px;
+	display: inline-block;
+}
+.show_button li {
+	list-style-type: none;
+	float: left;
+	font-size: 16px;
+	width: 50px;
+	line-height: 35px;
+	padding: 0 25px 0 25px;
+	border-radius: 18px 18px;
+	margin:0 12px 0 12px ;
+	background: rgba(240,240,240,1);
+}
+
+li.select{
+	background-color: #FFC001;
+	color: #fff
+}
+
+#effect_box {
+	height: 492px;
+}
+.effect_item {
+	overflow: hidden;
+	height: 492px;
+}
+.effect_item .imgCell {
+	position: relative;
+	float: left;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	cursor: pointer;
+}
+.imgCell .search-icon {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 64px;
+	height: 64px;
+	display: none;
+	background: url(../img/imageEffetc_magnifier.png);
+}
+
+
+
+
+.maskfcs {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #000;
+	overflow: hidden;
+	display: none;
+	z-index: 1;
+}
+
+.arrowC {
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	background:center url(../img/btn_close.png) no-repeat;
+	top: 40px;
+	right: 40px;
+	cursor: pointer;
+}
+
+.arrowL, .arrowR {
+	display: inline-block;
+	width: 60px;
+	height: 80px;
+	background-image: url(../img/btn_next_prev.png);
+	position: absolute;
+	top: 0;
+	bottom: 0;	
+	margin: auto;
+	cursor: pointer;
+}
+.arrowL {
+	left: 40px;
+	background-position: 0 0;
+	background-color: rgba(0,0,0,0.1);
+}
+.arrowR {
+	right: 40px;
+	background-position: 0 -80px;
+	background-color: rgba(0,0,0,0.1);
+}
+.arrowL:hover {
+	background-position: bottom;
+}
+.arrowR:hover {
+	background-position: 0 162px;
+}
+
+.posAll li {
+	list-style-type: none;
+}
+
+
+
+.pos_1, .pos_5 {
+	width: 150px;
+	height: 200px;
+	border: 5px solid #fff;
+	display: block;
+}
+.pos_2, .pos_4 {
+	width: 250px;
+	height: 300px;
+	border: 5px solid #fff;
+	display: block;
+}
+.pos_3 {
+	width: 278px;
+	height: 225px;
+	border: 10px solid #fff;
+	display: block;
+}
