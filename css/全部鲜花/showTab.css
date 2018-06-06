@@ -1,0 +1,54 @@
+.wrapper {
+	
+}
+.flowerCont{
+
+}
+.tabList {
+	height: 145px;
+	overflow: hidden;
+	text-align: center;
+}
+.tabList ul {
+	display: inline-block;
+	margin-top: 37px;
+}
+.tabList  li {
+	list-style-type: none;
+	float: left;
+	font-size: 16px;
+	width: 80px;
+	line-height: 35px;
+	//padding: 0 25px 0 25px;
+	border-radius: 18px 18px;
+	margin: 0 12px 0 12px;
+	background: rgba(240,240,240,1);
+	
+}
+
+.tabList li.select{
+	background-color: #FFC001;
+	color: #fff;
+}
+
+.item_box {
+	height: 1710px;
+	overflow: hidden;
+}
+
+.item_box > div {
+	display: none;
+}
+
+#hotItem {
+	display: block;
+}
+
+.itemCell {
+	margin-bottom: 30px;
+}
+
+#hotItem .itemCell {
+	margin-bottom: 50px;
+}
+

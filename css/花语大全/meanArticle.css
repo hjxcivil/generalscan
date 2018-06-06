@@ -1,0 +1,54 @@
+.flowMeanCon {
+	
+}
+.meanItem {
+	margin-top: 20px;
+	margin-bottom: 55px;
+	
+	
+}
+.meanCell {
+	margin-bottom: 30px;
+}
+
+
+.meanCell img {
+	vertical-align: middle;
+}
+
+.meanCell .news {
+	display: inline-block;
+	vertical-align: middle;
+	//height: 470px;
+	margin-left: 25px;
+	border-left: 1px solid #bababa;
+}
+
+.meanCell .news i {
+	display: inline-block;
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	margin-top: 30px;
+	margin-left: -27px;
+	background: #bababa;
+	border-radius: 12px;
+}
+
+.meanCell .news li {
+	list-style-type: none;
+	line-height: 68px;
+	text-indent: 20px;
+}
+
+
+
+.meanCell a {
+	text-decoration: none;
+	color: #666;
+	font-size: 14px;
+	font-family: "微软雅黑";	
+}
+.meanCell a:hover {
+	color: #FFC001;
+}

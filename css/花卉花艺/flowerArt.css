@@ -1,0 +1,104 @@
+.flowerArt {
+	height: 610px;
+}
+.flowerArt .tit {
+	text-align: center;
+	font: bold 26px "微软雅黑" ;
+	color: #FFC001;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.tit i {
+	position: absolute;
+	margin-top: 45px;
+	display: inline-block;
+	width: 230px;
+	margin-left: -115px;
+	background: url(../../img/heart.png)
+}
+.artList {
+	margin-top: 65px;
+	
+}
+.artItem {
+	width: 350px;
+	margin-right: 50px;
+}
+.artItem img {
+	cursor: pointer;
+}
+.artCon {
+	width: 315px;
+	margin: 0 auto;
+	color: #666;
+
+}
+.artCon h2 a{
+	font: 16px/52px "微软雅黑";
+	color: #555;
+	text-decoration: none;
+}
+.artCon a:hover {
+	color: #FFC001;
+}
+.artCon p{
+	font: 14px/24px "微软雅黑";
+}
+
+
+.arrangeArt {
+	//overflow: hidden;
+	position: relative;
+	height: 720px;
+}
+.arrMask {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: -1;
+	background: center url(../../img/AD0Ig-H2BBACGAAg-KyfvgUomI3jlQIwkA840AU.jpg);
+}
+.frameBox {
+	position: absolute;
+	width: 800px;
+	height: 590px;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	
+}
+
+.arrLeft {
+	margin-right: 20px;
+}
+.frameTit {
+	text-align: center;
+	margin: 130px 0 63px;
+}
+.frameTit h1{
+	display: inline-block;
+	padding: 15px 55px;
+	font-family:微软雅黑;font-size:30px;color:#FFFFFF;
+	border: 1px solid;
+	line-height: 1.8;
+}
+.frameTit p {
+	font-family:微软雅黑;font-size:18px;color:#FFFFFF;
+	line-height: 90px;
+}
+
+.imgFrame {
+	font-size: 0;
+}
+.imgFrame img {
+	border: 10px solid #fff;
+}
+.imgL {
+	margin-top: ;
+}
+.artRight {
+	
+}

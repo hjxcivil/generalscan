@@ -1,0 +1,9 @@
+.focus {
+	min-width: 1200px;
+}
+.imgCont {
+	width: 100%;
+	height: 400px;
+	background-image: url(../../img/AD0Ig-H2BBACGAAgiq2fvgUoyui9MDCADziQAw.jpg);
+	background-position: center;
+}
